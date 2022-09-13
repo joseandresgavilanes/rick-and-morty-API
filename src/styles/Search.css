@@ -74,4 +74,17 @@
     color: #ffffff;
    }
 
-   
+   .noselect{
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+   }
+
+   .noselect:hover{
+    background-color: rgb(191, 70, 70);    
+    transition: all .2s
+   }
+
+   .noselect:active{
+    transform: scale(0.95);
+   }

@@ -22,7 +22,6 @@ body{
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
     background-color: var(--mainColor);
 }
@@ -33,6 +32,8 @@ body{
     align-items: center;
     flex-direction: column;
     gap: 2em;
+    min-height: 100vh;
+    width: 100%;
 }
 
 
@@ -47,26 +48,22 @@ body{
 
 .banner{
     width: 100%;
-    height: 450px;
-}
-
-.banner{
-    color: white;
-    display: flex;
-    flex-direction: column;
     
 }
+
 
 
 .banner img {
     width: 100%;
     height: 100%;
-    
+    object-fit: contain;    
+    max-height: 500px
 }
 
 
 .card_container{
     margin-bottom: 40px;
+    padding: 0 10px
 }
 
 
@@ -76,17 +73,21 @@ body{
 
 h1{
     margin: 20px 0 0 0;
-    font-size: 100px;
+    font-size: 140px;
     font-weight: 900;
     color: white;
     text-shadow: 3px 3px #67c65f;
     font-family: 'Shadows Into Light', cursive;
-    letter-spacing: 3px;    
+    letter-spacing: 3px;
+    display:flex;    
+    align-self: center;
+    text-align: center;
+    margin: 0 20px;
 }
 
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 900px){
     .banner{
         display: none;
     }
@@ -96,5 +97,8 @@ h1{
         font-weight: 900;
         color: white;
         text-shadow: 3px 3px #67c65f;
+    }
+    .card_container{
+        margin-bottom: 60px;
     }
 }

@@ -73,6 +73,7 @@
     display: flex;
     flex-direction: row;
     gap: 1em;
+    padding: 0 10px;
    }
    
 
@@ -84,7 +85,7 @@
     top: 0;
     left: 0;
     background: #21c465;
-    background: linear-gradient(to bottom, #e7aeae, #ee9ca7);
+    background: linear-gradient(to bottom, #32643f, #000000);
    }
    
    /*Hover*/
@@ -102,7 +103,7 @@
     align-items: center;
     flex-direction: column;
     text-align:center;
-    background: rgba(53, 56, 53, 0.4);
+    background: rgba(53, 56, 53, 0.797);
     opacity: 100%;
     width: 200px;
     height: 70%;

@@ -17,6 +17,7 @@
 .location h2{
     text-align: center;
     font-size: 25px;
+    margin: 0 20px;
 }
 
 .planet_info{
@@ -29,6 +30,7 @@
     height: 60%;
     text-align: center;
     width: 80%;
+    margin: 0 20px;
 }
 
 .planet_info li{
@@ -39,7 +41,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: .5em;
+    gap: .2em;
     border-radius: 20px;
     opacity:60%;
 }
@@ -89,7 +91,7 @@
         font-size: 20px;
         height: 80%;
         width: 50%;
-        gap: 1em;
+        gap: .5em;
     }
 
     .planet_info li {
@@ -97,11 +99,33 @@
         width: 30%;
       }
 
+      .planet_info span{
+        font-size: 15px;
+      }
+
       .location .fa-solid{
         margin-bottom: 10px;
         color: white;
-        font-size: 65px;
+        font-size: 45px;
        }
 
   }
 
+
+  
+  @media only screen and (min-width: 1200px){
+    .planet_info span{
+        font-size: 20px;
+      }
+      .location .fa-solid{
+        font-size: 55px;
+       }
+  }
+
+
+
+  @media only screen and (max-width: 400px){
+    .planet_info span{
+        font-size: 10px;
+      }
+  }
