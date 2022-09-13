@@ -16,6 +16,15 @@
 }
 
 
+*::-webkit-scrollbar {
+    width: 8px;
+   
+ }
+ 
+ *::-webkit-scrollbar-thumb {
+ background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+    border-radius: 10px;
+ }
 
 body{
     font-family: 'Roboto', sans-serif;
